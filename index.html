@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller 1 y 2</title>
+  <link rel="stylesheet" href="/sass/css/style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <ul class="nav__ul">
+      <li class="nav__li"><a class="nav__link" href="#/home">Inicio</a></li>
+      <li class="nav__li"><a class="nav__link nav__link--secundario" href="#/fetch">Fetch</a></li>
+      <li class="nav__li"><a class="nav__link nav__link--tercero" href="#/comentarios">Comentarios</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section">
+    <h1 class="home__h1">Taller 1 y 2</h1>
+    <p class="home__parragraph">Este es un sitio web creado con Javascript y Sass. Visita la segunda pagina para que
+      puedas hacer Fetch a una API, obtener datos y mostrarlos en pantalla.</p>
+  </section>
+
+  <section id="fetch" class="section section--displayNone">
+    <div class="fetch">
+      <h2 class="fetch__h2">Fetch</h2>
+      <button class="fetch__button">Obtener datos</button>
+      <div class="fetch__pokemonesContainer"></div>
+      <h5 class="fetch__h5">Este boton tiene un removeEventListener para que no puedas volver a hacer la petición si
+        no es refrescando la página, <br> solo como otro ejemplo de manejadores de eventos.</h5>
+        <h5 class="fetch__h5 fetch__h5--secondLine">Por eso tampoco añadi un disabled al boton</h5>
+    </div>
+  </section>
+
+  <section id="comentarios" class="section section--displayNone">
+    <h2 class="comentarios__h2">Comentarios</h2>
+    <form id="comentarios-form">
+      <input type="text" name="nombre" placeholder="Nombre">
+      <textarea name="comentario" placeholder="Comentario"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <ul id="comentarios-list"></ul>
+  </section>
+</body>
+
+</html>

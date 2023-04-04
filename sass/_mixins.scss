@@ -1,0 +1,13 @@
+@mixin boton($bg-color) {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: $bg-color;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}

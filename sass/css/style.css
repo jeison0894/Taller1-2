@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+.home {
+  text-align: center;
+}
+.home__parragraph {
+  text-align: left;
+}
+
+.nav {
+  margin: 3rem 0;
+}
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.nav__li {
+  text-decoration: none;
+  list-style: none;
+}
+.nav__link {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+.nav__link:hover {
+  background-color: #000;
+  color: #fff;
+}
+.nav__link--secundario {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #004084;
+  color: #fff;
+  text-decoration: none;
+}
+.nav__link--secundario:hover {
+  background-color: #000;
+  color: #fff;
+}
+.nav__link--tercero {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #d26c00;
+  color: #fff;
+  text-decoration: none;
+}
+.nav__link--tercero:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.fetch .fetch__pokemonesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 2rem;
+}
+.fetch__h5 {
+  text-align: center;
+  color: gray;
+  margin-top: 2rem;
+}
+.fetch__h5--secondLine {
+  margin-top: 1rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 62.5rem;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.section--displayNone {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

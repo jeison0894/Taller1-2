@@ -1,0 +1,27 @@
+.nav {
+  margin: 3rem 0;
+
+  &__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &__link {
+    @include boton(#007bff);
+  }
+
+  &__link--secundario {
+    @include boton(#004084);
+  }
+
+  &__link--tercero {
+    @include boton(#d26c00);
+  }
+}
